@@ -1,0 +1,74 @@
+.register {
+  height: 100vh;
+  background-color: rgb(193, 190, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .register-card {
+    display: flex;
+    width: 50%;
+    min-height: 500px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    overflow: hidden;
+    .register-left {
+      background-color: white;
+      flex: 1;
+      padding: 30px;
+      h1 {
+        text-align: center;
+        color: #555;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        input {
+          border: none;
+          border-bottom: 1px solid gray;
+          padding: 20px 10px;
+        }
+      }
+      button {
+        width: 55%;
+        border: none;
+        padding: 10px;
+        background-color: #938eef;
+        color: white;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+    .register-right {
+      color: white;
+      flex: 1;
+      background-image: url("https://images.pexels.com/photos/14749839/pexels-photo-14749839.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load");
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 40px;
+      padding: 40px;
+      h1 {
+        margin: 0%;
+        font-size: 50px;
+        line-height: 50px;
+      }
+      p {
+      }
+      button {
+        width: 50%;
+        padding: 10px;
+        border: none;
+        color: rebeccapurple;
+        background-color: white;
+        &:hover {
+          cursor: pointer;
+          background-color: azure;
+        }
+      }
+    }
+  }
+}

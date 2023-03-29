@@ -1,0 +1,81 @@
+.login {
+  height: 100vh;
+  background-color: rgb(193, 190, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .card {
+    display: flex;
+    width: 50%;
+    border-radius: 10px;
+    min-height: 500px;
+    overflow: hidden;
+    .left {
+      padding: 50px;
+      flex: 1;
+      background: url("https://images.pexels.com/photos/14783460/pexels-photo-14783460.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load")
+        center;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      color: white;
+      h1 {
+        margin: 0px;
+        font-size: 50px;
+        line-height: 50px;
+      }
+      p {
+      }
+      span {
+        font-size: 14px;
+      }
+      button {
+        width: 50%;
+        padding: 10px;
+        border: none;
+        color: rebeccapurple;
+        background-color: white;
+        &:hover {
+          cursor: pointer;
+          background-color: azure;
+        }
+      }
+    }
+    .right {
+      flex: 1;
+      display: flex;
+      padding: 50px;
+      flex-direction: column;
+      justify-content: center;
+      gap: 50px;
+      background-color: white;
+      h1 {
+        color: #555;
+        text-align: center;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        input {
+          padding: 20px 10px;
+          border: none;
+          border-bottom: 1px solid gray;
+        }
+
+        button {
+          width: 55%;
+          border: none;
+          padding: 10px;
+          background-color: #938eef;
+          color: white;
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
